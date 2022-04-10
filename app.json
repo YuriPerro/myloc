@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "my-loc",
+    "slug": "my-loc",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
