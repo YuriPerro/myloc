@@ -67,7 +67,7 @@ macOS users - you can use the Iphone Emulator provide by Xcode
 
 ## 🚦 Run tests
 
-### Unit tests
+### unit tests
 
 For unit tests just run ```yarn test``` and wait the results
 
