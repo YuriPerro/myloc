@@ -1,8 +1,8 @@
 import React from 'react';
 import { fireEvent, render } from '@testing-library/react-native';
 import { NavigationContainer } from '@react-navigation/native';
-import { Routes } from '../src/stack/routes';
 import { height, width } from '../src/utils/device.utils';
+import { Routes } from '../src/stack/routes';
 
 describe('Testing Onboarding screen', () => {
   const component = (

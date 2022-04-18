@@ -15,6 +15,7 @@ import { Routes } from './stack/routes';
 import { NavigationContainer } from '@react-navigation/native';
 
 export default function App() {
+  
   /*
   |-----------------------------------------------------------------------------
   | Hooks.

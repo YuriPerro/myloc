@@ -18,7 +18,6 @@ import { LinearGradient } from 'expo-linear-gradient';
 import mapTheme from '../../assets/json/mapTheme.json';
 import { Loading } from '../../components/Loading';
 import { getMsgSalutation } from '../../utils/date.utils';
-
 import Thermometer from '../../assets/svg/Thermometer.svg';
 import Wind from '../../assets/svg/Wind.svg';
 

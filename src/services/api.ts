@@ -6,3 +6,4 @@ export const api = axios.create({
 
 export const fetchWeatherIconById = (iconCode: string) =>
   `http://openweathermap.org/img/wn/${iconCode}@4x.png`;
+  
