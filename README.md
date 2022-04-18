@@ -37,7 +37,7 @@
 - Fetch your weather stats from your location
 - Show your position on map
 
-## 🚀 Getting Started
+## ⚒️ Getting Started
 
 * **Npm** is distributed with Node.js which means that when you download Node.js, you automatically get npm installed on your computer. [Download Node.js](https://nodejs.org/en/download/)
 
@@ -53,7 +53,7 @@
 macOS users - you can use the Iphone Emulator provide by Xcode
 ```
 
-## ⚒️ Install and Run
+## 🚀  Install and Run
 
 ⬇ Follow the steps below to download and run the project 
 
