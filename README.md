@@ -53,7 +53,7 @@
 macOS users - you can use the Iphone Emulator provide by Xcode
 ```
 
-## ⚒️ How to Install
+## ⚒️ Install and Run
 
 ⬇ Follow the steps below to download and run the project 
 
