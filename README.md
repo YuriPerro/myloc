@@ -89,6 +89,12 @@ For automated tests, you need to generate build and run tests for the platform o
 - Generate build with ```detox build --configuration android.emu.debug```
 - Then, Run e2e tests with ```detox test -c android.emu.debug```
 
+## 📦 APK
+
+For Android users that prefer to see standalone app
+
+- [Download apk](https://expo.dev/artifacts/eas/nku4oA5gZGRYWghuKL4hfM.apk)
+
 ## 📃 License
 
 * Licensed for users and contributors under MIT license.
