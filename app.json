@@ -3,6 +3,11 @@
     "name": "my-loc",
     "slug": "my-loc",
     "version": "1.0.0",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#222B45"
+    },
     "assetBundlePatterns": [
       "**/*"
     ]

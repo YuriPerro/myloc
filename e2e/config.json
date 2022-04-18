@@ -1,0 +1,11 @@
+{
+  "preset": "ts-jest",
+  "maxWorkers": 1,
+  "testEnvironment": "node",
+  "setupFilesAfterEnv": ["./init.ts"],
+  "testRunner": "jest-jasmine2",
+  "testTimeout": 120000,
+  "testRegex": "\\.spec\\.ts$",
+  "reporters": ["detox/runners/jest/streamlineReporter"],
+  "verbose": true
+}
