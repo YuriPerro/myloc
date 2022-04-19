@@ -36,6 +36,7 @@
 
 - Fetch your weather stats from your location
 - Show your position on map
+- and more...
 
 ## ⚒️ Getting Started
 
