@@ -63,7 +63,7 @@ macOS users - you can use the Iphone Emulator provide by Xcode
 2. cd myloc
 3. yarn or npm install
 4. create a .env file on the root of project, and put your weather api key like '.env.example'
-5. yarn start or npm start
+5. yarn ios or yarn android
 ```
 
 ## 🚦 Run tests
