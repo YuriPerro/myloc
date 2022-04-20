@@ -21,6 +21,7 @@
 - React Native SVG
 - React Native Maps
 - Lottie
+- Moti
 
 ## ✅ Tests
 
