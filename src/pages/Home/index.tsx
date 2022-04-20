@@ -20,6 +20,7 @@ import { Loading } from '../../components/Loading';
 import { getMsgSalutation } from '../../utils/date.utils';
 import Thermometer from '../../assets/svg/Thermometer.svg';
 import Wind from '../../assets/svg/Wind.svg';
+import { MotiView } from 'moti';
 
 type CardProps = { label: string; description: string };
 
@@ -84,6 +85,7 @@ export const Home: React.FC = () => {
           lat: userLocation?.coords.latitude,
           lon: userLocation?.coords.longitude,
         });
+        console.log('🚀 ~ fetchWeather ~ data', data);
 
         if (data) setWeatherData(data);
       }
@@ -159,7 +161,22 @@ export const Home: React.FC = () => {
           <Text style={styles.weatherDescription}>
             {weatherData?.weather[0].description}
           </Text>
-          <WeatherIcon width={250} height={190} style={{ marginTop: 10 }} />
+
+          <MotiView
+            from={{
+              translateY: -10,
+            }}
+            animate={{
+              translateY: 10,
+            }}
+            transition={{
+              loop: true,
+              type: 'timing',
+              duration: 1500,
+              delay: 100,
+            }}>
+            <WeatherIcon width={250} height={190} style={{ marginTop: 10 }} />
+          </MotiView>
 
           <View style={styles.containerTemp}>
             <Thermometer width={40} height={45} style={{ top: 8, left: 10 }} />
@@ -215,9 +232,14 @@ export const Home: React.FC = () => {
                 latitude: userLocation?.coords.latitude!,
                 longitude: userLocation?.coords.longitude!,
               }}>
-              <View style={styles.marker}>
-                <Text style={styles.textMarker}>Você está aqui</Text>
-              </View>
+              <MotiView
+                from={{ opacity: 0.5 }}
+                animate={{ opacity: 1 }}
+                transition={{ loop: true, duration: 1500 }}>
+                <View style={styles.marker}>
+                  <Text style={styles.textMarker}>Você está aqui</Text>
+                </View>
+              </MotiView>
             </Marker>
           </MapView>
         </View>
