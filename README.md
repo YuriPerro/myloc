@@ -82,6 +82,7 @@ For automated tests, you need to generate build and run tests for the platform o
  **Before, change device type in the section 'ios.sim.debug' on the package.json file, to your ios emulator name.**
 
 - Generate build with ```detox build --configuration ios.sim.debug```
+- Start the project ```yarn start```
 - Then, Run e2e tests with ```detox test -c ios.sim.debug```
   
 #### 🤖 Android
@@ -89,6 +90,7 @@ For automated tests, you need to generate build and run tests for the platform o
  **Before, change device avdName in the section 'android.emu.debug' on the package.json file, to your android emulator name.**
 
 - Generate build with ```detox build --configuration android.emu.debug```
+- Start the project ```yarn start```
 - Then, Run e2e tests with ```detox test -c android.emu.debug```
 
 ## 📦 APK
